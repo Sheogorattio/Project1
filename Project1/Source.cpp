@@ -39,7 +39,7 @@ int WINAPI _tWinMain(HINSTANCE hInst, HINSTANCE hPrev, LPTSTR lpszCmdLine, int n
 }
 
 void ShowProcList(HWND hList) {
-	EnableWindow(hTerminate, FALSE);
+	//EnableWindow(hTerminate, FALSE);
 	EnableWindow(hNew, TRUE);
 
 	HANDLE hSnapshot = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
@@ -71,7 +71,7 @@ BOOL CALLBACK DlgProc(HWND hWnd, UINT mes, WPARAM wp, LPARAM lp)
 		hProcName = GetDlgItem(hWnd, IDC_EDIT1);
 		hProcList = GetDlgItem(hWnd, IDC_LIST1);
 	   	ShowProcList(hProcList);
-		SetTimer(hWnd, 0, 1000, 0);
+		SetTimer(hWnd, 0, 10000, 0);
 	}
 	return TRUE;
 

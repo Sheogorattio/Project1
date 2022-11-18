@@ -2,11 +2,12 @@
 AppHelperCap.exe
 AppMarket.exe
 armsvc.exe
-audiodg.exe
 CCleaner64.exe
 cef_frame_render.exe
 cef_frame_render.exe
 cef_frame_render.exe
+chrome.exe
+chrome.exe
 chrome.exe
 chrome.exe
 chrome.exe
@@ -214,7 +215,6 @@ svchost.exe
 svchost.exe
 svchost.exe
 svchost.exe
-svchost.exe
 SynTPEnh.exe
 SynTPEnhService.exe
 SysInfoCap.exe
@@ -233,9 +233,7 @@ Teams.exe
 TeamViewer_Service.exe
 Telegram.exe
 TextInputHost.exe
-TiWorker.exe
 TouchpointAnalyticsClientService.exe
-TrustedInstaller.exe
 unsecapp.exe
 UserOOBEBroker.exe
 vcpkgsrv.exe
@@ -243,7 +241,6 @@ vcpkgsrv.exe
 vcpkgsrv.exe
 vcpkgsrv.exe
 vcpkgsrv.exe
-vctip.exe
 vmcompute.exe
 vmmem
 vmms.exe
